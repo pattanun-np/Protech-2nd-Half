@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BankInheritance</OriginalElement>
+  <nodes>
+    <node x="-105.5" y="402.0">BankInheritance.BankInheritance</node>
+    <node x="-227.0" y="246.0">BankInheritance..idea</node>
+    <node x="310.0" y="517.5">BankInheritance.TimeDepositAccount</node>
+    <node x="301.0" y="33.5">BankInheritance.BankAccount</node>
+    <node x="30.0" y="66.5">BankInheritance.CheckingAccount</node>
+    <node x="336.5" y="350.5">BankInheritance.SavingsAccount</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BankInheritance.TimeDepositAccount" target="BankInheritance.SavingsAccount" relationship="GENERALIZATION">
+      <point x="0.0" y="-82.5" />
+      <point x="423.0" y="483.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="BankInheritance.SavingsAccount" target="BankInheritance.BankAccount" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="424.0" y="318.5" />
+      <point x="0.0" y="126.5" />
+    </edge>
+    <edge source="BankInheritance.CheckingAccount" target="BankInheritance.BankAccount" relationship="GENERALIZATION">
+      <point x="110.0" y="0.0" />
+      <point x="275.5" y="147.25" />
+      <point x="-139.0" y="0.0" />
+    </edge>
+    <edge source="BankInheritance.BankAccount" target="BankInheritance.SavingsAccount" relationship="GENERALIZATION">
+      <point x="0.0" y="-126.5" />
+      <point x="479.875" y="242.625" />
+      <point x="-103.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Compact" zoom="0.7761194029850746" showDependencies="false" x="308.3653846153847" y="361.86538461538464" />
+  <SelectedNodes>
+    <node>BankInheritance.BankInheritance</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

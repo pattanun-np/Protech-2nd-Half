@@ -2,10 +2,10 @@ package BankInheritance;
 
 import java.util.Random;
 
-public class BankAccount extends SavingsAccount {
+public class BankAccount  {
 
     private double balance;
-    private String account_number;
+    protected String account_number;
 
 
     public BankAccount() {
